@@ -77,7 +77,6 @@ section.imagem {
 
 section.imagem > p { /* criando uma box transparente dentro da section imagem*/
     display: inline-block;
-    width: 400px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
     text-shadow: 1px 1px 0px black;
@@ -86,6 +85,7 @@ section.imagem > p { /* criando uma box transparente dentro da section imagem*/
 section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: center;
+    width: 400px;
 }
 
 
